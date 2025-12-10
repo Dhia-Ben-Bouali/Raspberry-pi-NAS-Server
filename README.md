@@ -1,26 +1,25 @@
-# Raspberry-pi-NAS-Server
-🚀 Just completed a home NAS deployment project using Raspberry Pi + OpenMediaVault!
+# Raspberry Pi NAS Server
 
-In this project, I transformed a Raspberry Pi 4 into a fully functional Network Attached Storage (NAS) system with centralized, secure, and remote-accessible file sharing.
+🚀 Just completed a home NAS deployment project using **Raspberry Pi 4 + OpenMediaVault (OMV)**!
 
-🔍 Key steps included:
+In this project, I transformed a Raspberry Pi into a fully functional **Network Attached Storage (NAS)** system with centralized, secure, and remote-accessible file sharing.
 
-Scanning the network with nmap to locate the Pi
+## 🔍 Key Steps
 
-Setting up SSH access and updating the system
+- Scanned the network with **nmap** to locate the Raspberry Pi  
+- Set up **SSH access** and updated the system  
+- Installed **OpenMediaVault (OMV)** using the official GitHub script  
+- Configured and mounted an **external drive (exFAT)**  
+- Created **shared folders** with user-level access control  
+- Enabled **SMB/CIFS** for Windows network access  
+- Added **firewall rules** to restrict access to local devices only  
+- Troubleshot **lockouts** and restored WebUI access via SSH  
 
-Installing OpenMediaVault (OMV) from the official GitHub script
+## 🔒 Security & Future Improvements
+- Basic **security hardening** by managing firewall rules  
+- Planning future upgrades like **encrypted shares** and **monitoring tools**
 
-Configuring and mounting an external drive (exFAT)
+## 📄 Documentation
+## 📄 Documentation
+I've written a **technical report** summarizing the entire process, including screenshots and detailed steps — check it out [here](Raspberry-Pi-NAS-Report.pdf) if you're curious about DIY NAS setups, home labs, or OpenMediaVault!
 
-Creating shared folders with user-level access control
-
-Enabling SMB/CIFS for Windows network access
-
-Adding firewall rules to restrict access to local devices only
-
-Troubleshooting lockout and restoring WebUI access via SSH
-
-🔒 I also explored basic security hardening by managing firewall rules and planning future improvements like encrypted shares and monitoring tools.
-
-📄 I've written a technical report summarizing the entire process, including screenshots and detailed steps — feel free to check it out if you're curious about DIY NAS setups, home labs, or OpenMediaVault!
