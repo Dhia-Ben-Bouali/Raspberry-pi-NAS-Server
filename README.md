@@ -20,5 +20,5 @@ In this project, I transformed a Raspberry Pi into a fully functional **Network 
 - Planning future upgrades like **encrypted shares** and **monitoring tools**
 
 ## 📄 Documentation
-I've written a **technical report** summarizing the entire process, including screenshots and detailed steps — check it out [here](Home Lab NAS Server.pdf) if you're curious about DIY NAS setups, home labs, or OpenMediaVault!
+I've written a **technical report** summarizing the entire process, including screenshots and detailed steps — check it out [here](Home_Lab_NAS_Server.pdf) if you're curious about DIY NAS setups, home labs, or OpenMediaVault!
 
